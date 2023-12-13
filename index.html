@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FZP9QSS9HW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FZP9QSS9HW");
+    </script>
+
+    <!--Import files and libaries-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="UTF-9"
+    />
+    <title>Iqbal</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/content.css" />
+    <link rel="stylesheet" href="css/loader.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/boxshadow.css" />
+    <link rel="stylesheet" href="css/scrollbar.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="js/scroll.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/Lightbox/lightbox-plus-jquery.js"></script>
+    <script>
+      lightbox.option({ disableScrolling: true });
+    </script>
+  </head>
+  <body>
+    <!--Page loading animation-->
+    <div class="loader-wrapper">
+      <span class="pac-man"></span>
+      <div class="loading-text"><p>Loading assets...</p></div>
+    </div>
+    <!--Header section (Icon, title, etc)-->
+    <div id="landing" class="header" data-aos="fade-up" loading="lazy">
+      <div id="header-img" class="header"></div>
+      <div id="scrollpath"></div>
+      <div id="scrollbar"></div>
+      <div class="Title">
+        <div class="title-image"></div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <div class="title-name">
+          <p class="name">
+            <span id="iden-name"></span><br />
+            <span class="subtitle1" id="subtitle1">Tech Lover, Freelancer</span>
+            <span class="subtitle2" id="subtitle2">and Web Developer</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Sticky navbar-->
+    <div class="navbar box-mid">
+      <div class="navbrand" data-aos="fade-up" data-aos-once="true">
+        <a onclick="scrollToTarget('landing')">Iqbal</a>
+      </div>
+      <div class="navcenter" data-aos="fade-up" data-aos-once="true">
+        <a onclick="scrollToTargetAdjusted('portfolio',75), Unclick()"
+          >Portfolio</a
+        >
+        <a
+          id="nav-contact"
+          onclick="scrollToTargetAdjusted('contact',75), Unclick()"
+          >Contact</a
+        >
+      </div>
+      <div class="navsupport" data-aos="fade-up" data-aos-once="true">
+        <a onclick="scrollToTargetAdjusted('contact',75)" target="_blank"
+          >Contact</a
+        >
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--Main section-->
+    <div class="content">
+      <!--Portfolio section-->
+      <div id="portfolio">
+        <div class="text-title" data-aos="fade-up"><p>Portfolio</p></div>
+        <div class="portfolio-container">
+          <div
+            class="portfolio-gallery-item"
+            data-aos="zoom-in"
+            data-aos-delay="0"
+          >
+            <div class="portfolio-images">
+              <a
+                href="resource/image/portfolio/big/11.png"
+                data-lightbox="rav-portfolio"
+                ><img src="resource/image/portfolio/smol/11.png" loading="lazy"
+              /></a>
+              <p>Website Koperasi Syariah</p>
+            </div>
+          </div>
+          <div
+            class="portfolio-gallery-item"
+            data-aos="zoom-in"
+            data-aos-delay="0"
+          >
+            <div class="portfolio-images">
+              <a
+                href="resource/image/portfolio/big/10.png"
+                data-lightbox="rav-portfolio"
+                ><img src="resource/image/portfolio/smol/10.png" loading="lazy"
+              /></a>
+              <p>Website Toko Buku</p>
+            </div>
+          </div>
+          <div
+            class="portfolio-gallery-item"
+            data-aos="zoom-in"
+            data-aos-delay="0"
+          >
+            <div class="portfolio-images">
+              <a
+                href="resource/image/portfolio/big/9.png"
+                data-lightbox="rav-portfolio"
+                ><img src="resource/image/portfolio/smol/9.png" loading="lazy"
+              /></a>
+              <p>Website Stick Mozarella</p>
+            </div>
+          </div>
+          <!-- <div
+            class="portfolio-gallery-item"
+            data-aos="zoom-in"
+            data-aos-delay="0"
+          >
+            <div class="portfolio-images">
+              <a
+                href="resource/image/portfolio/big/11.png"
+                data-lightbox="rav-portfolio"
+                ><img src="resource/image/portfolio/smol/11.png" loading="lazy"
+              /></a>
+              <p>Website Koperasi Syariah</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <div id="my-skill">
+        <div class="text-title" data-aos="fade-up"><p>My Skill</p></div>
+
+        <div class="skill-container" data-aos="fade-up">
+          <div class="skill-container-left box-mid">
+            <div class="skill-title text-header">Language</div>
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/languages/us.png"
+                  width="40px"
+                  height="40px"
+                />
+                <p>English</p>
+              </div>
+              <!-- <div class="language-container-inner-r">
+                            <span id="INTERMEDIATE">Intermediate</span>
+                        </div> -->
+            </div>
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/languages/indonesia.png"
+                  width="40px"
+                  height="40px"
+                />
+                <p>Indonesian</p>
+              </div>
+            </div>
+          </div>
+          <div class="skill-container-middle box-mid">
+            <div class="skill-title text-header">Software</div>
+
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/software/laragon.svg"
+                  width="48px"
+                  height="48px"
+                />
+                <p>Laragon</p>
+              </div>
+            </div>
+
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/software/vscode.svg"
+                  width="48px"
+                  height="48px"
+                />
+                <p>VSCode</p>
+              </div>
+            </div>
+
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/software/xampp.svg"
+                  width="48px"
+                  height="48px"
+                />
+                <p>Xampp</p>
+              </div>
+            </div>
+          </div>
+          <div class="skill-container-right box-mid">
+            <div class="skill-title text-header">Technology</div>
+
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/technology/html.png"
+                  width="48px"
+                  height="48px"
+                />
+                <p>HTML</p>
+              </div>
+            </div>
+
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/technology/css.png"
+                  width="48px"
+                  height="48px"
+                />
+                <p>CSS</p>
+              </div>
+            </div>
+
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/technology/js.png"
+                  width="48px"
+                  height="48px"
+                />
+                <p>JavaScript</p>
+              </div>
+            </div>
+
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/technology/php.svg"
+                  width="48px"
+                  height="48px"
+                />
+                <p>PHP</p>
+              </div>
+            </div>
+          </div>
+          <div class="skill-container-right box-mid">
+            <div class="skill-title text-header">Framework</div>
+
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/software/Laravel.svg"
+                  width="48px"
+                  height="48px"
+                />
+                <p>Laravel</p>
+              </div>
+            </div>
+
+            <div class="language-container">
+              <div class="language-container-inner">
+                <img
+                  src="resource/image/portfolio/software/bootstrap.svg"
+                  width="48px"
+                  height="48px"
+                />
+                <p>Bootstrap</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact">
+        <div class="text-title" data-aos="fade-up"><p>Contact</p></div>
+        <div class="contact-container">
+          <div class="contact-left">
+            <div class="contact-inner-container">
+              <form id="FORM">
+                <div class="text-header" data-aos="fade-up">Message</div>
+                <br />
+                <br />
+
+                <div class="contact-thin-text" data-aos="fade-up">Name*</div>
+                <input
+                  type="text"
+                  id="NAME"
+                  name="Name"
+                  class="box-mid"
+                  placeholder="Your name"
+                  required
+                  data-aos="fade-up"
+                />
+
+                <div class="contact-thin-text" data-aos="fade-up">Email*</div>
+                <input
+                  type="email"
+                  id="EMAIL"
+                  name="Email"
+                  class="box-mid"
+                  placeholder="Email address"
+                  required
+                  data-aos="fade-up"
+                />
+
+                <div class="contact-thin-text" data-aos="fade-up">Message*</div>
+                <textarea
+                  id="MESSAGE"
+                  name="Message"
+                  class="box-mid"
+                  rows="6"
+                  placeholder="Message"
+                  required
+                  data-aos="fade-up"
+                ></textarea>
+                <div data-aos="fade-up">
+                  <div class="send box-mid" onclick="SendEmail()">Send</div>
+                </div>
+
+                <div class="text-header email-not-sent">Sending email...</div>
+              </form>
+            </div>
+          </div>
+          <div class="contact-right">
+            <div class="contact-inner-container">
+              <div class="text-header" data-aos="fade-up">Get in touch</div>
+
+              <div class="contact-thin-text" data-aos="fade-up">
+                <p>You can contact me via my social media below:</p>
+              </div>
+              <div class="external-links external-links-2" data-aos="fade-up">
+                <br />
+                <ul>
+                  <li>
+                    <a
+                      id="linkedin2"
+                      href="https://www.linkedin.com/in/m-iqbal-70442523b/"
+                      target="_blank"
+                      onmouseover="ExternalLinksEnter('linkedin2')"
+                      onmouseleave="ExternalLinksLeave()"
+                      ><img src="resource/svg/linkedin.svg" />
+                      <p>LinkedIn</p></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      id="instagram2"
+                      href="https://www.instagram.com/iqb41l/"
+                      target="_blank"
+                      onmouseover="ExternalLinksEnter('instagram2')"
+                      onmouseleave="ExternalLinksLeave()"
+                      ><img src="resource/svg/instagram.svg" />
+                      <p>Instagram</p></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      id="github2"
+                      href="https://github.com/Iqb41l"
+                      target="_blank"
+                      onmouseover="ExternalLinksEnter('twitter2')"
+                      onmouseleave="ExternalLinksLeave()"
+                      ><img src="resource/svg/Github.svg" />
+                      <p>Github</p></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Page loading animation when loading is complete-->
+      <script>
+        $(window).on("load", function () {
+          $(".loader-wrapper").fadeOut("slow");
+        });
+      </script>
+    </div>
+    <!--Animate on Scroll library initialization-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: -75,
+        delay: 0,
+        duration: 1000,
+        easing: "ease",
+        once: false,
+        mirror: false,
+        anchorPlacement: "top-bottom",
+      });
+    </script>
+    <script src="js/hamburger.js"></script>
+    <script>
+      Initialize();
+    </script>
+  </body>
+  <footer class="shad-bold">
+    <div class="B text-normal opacity-mid">
+      <p>Iqbal<br /><br /></p>
+    </div>
+
+    <div class="B text-normal">
+      <p>Powered by pure HTML/CSS and JavaScript<br /><br /></p>
+    </div>
+
+    <div class="B text-normal opacity-mid">
+      <p>Contact: @m.iqbal587079@gmail.com</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("iden-name").innerHTML = "M. Iqbal";
+  </script>
+</html>
+<!-- check -->
